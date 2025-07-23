@@ -7,7 +7,7 @@ Doppeltraktion (German for double heading — that's when two locomotives pull t
 
 ### Functions
 
-![](./assets/readme/functions.png)
+![Functions of the throttle](./assets/readme/functions.png)
 
 ### What is LCC?
 
