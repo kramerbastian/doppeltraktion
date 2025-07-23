@@ -1,3 +1,10 @@
+---
+title: "doppeltraktion"
+author: "Bastian Kramer"
+description: "doppeltraktion is the world‘s simplest model railway throttle."
+created_at: "2025-07-14"
+---
+
 ### 14/07/2025
 **Log 1:** After two weeks of holidays, I realized that this project would be significantly improved by using sliding potentiometers instead of rotary encoders. I would mean more complex software to check any discrepancies between the actual "real" locomotive speed and the potentiometer's position and make any previous work obsolete, but I think this extra work would definitely be worth it. You can read the journal entries of the old concept [here](./assets/journal/JOURNAL_OLD.md).
 
