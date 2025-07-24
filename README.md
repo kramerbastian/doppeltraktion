@@ -110,3 +110,9 @@ I couldn’t find a good CAD model or accurate dimensions for the 16mm selector 
 
 #### Opening the CAD File
 This project was built in multiple design files, which can‘t be combined without compromising the whole model. To import the CAD model, open Fusion 360, **create a new folder** and upload the [.f3z](./hardware/cad/Throttle.f3z) file into this created folder. You can now open the `Throttle` design file.
+
+-------
+<div style="display: flex; justify-items: center; flex-direction: row; gap: 4px; font-size: 12px;">
+Supported by
+<img alt="Highway" src="./assets/readme/highway.png" style="height: 24px">
+</div>
