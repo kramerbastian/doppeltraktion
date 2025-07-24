@@ -1,38 +1,41 @@
-﻿Part,Manufacturer,Product,Quantity,Price each,Total Price,Link,,
-Inserts,YMAX,Brass Threaded Insert Nut Kit,1, $1.460 , $1.46 ,https://www.aliexpress.com/item/1005006472962973.html,,
-Display,EstarDyn,12864-06D,1, $6.250 , $6.25 ,https://www.aliexpress.com/item/1005006160620381.html,,
-Rotary Knob,Sweideer,LA-155C,1, $2.630 , $2.63 ,https://www.aliexpress.com/item/1005007495183351.html,,
-Switches,-,10 Pieces Keyboard Replacement Parts,1, $1.590 , $1.59 ,https://www.aliexpress.com/item/1005004341695529.html,,
-Keycaps,-,B0KA 20PCs PBT Blank,1, $4.470 , $4.47 ,https://www.aliexpress.com/item/1005004525231272.html,,
-M2x5 12x,SCREWHOME,50pcs M2x5mm ULTRATHIN,1, $1.460 , $1.46 ,https://www.aliexpress.com/item/1005005070119421.html,,
-M2x10 4x,LIYA,50pcs M2x10mm,1, $1.560 , $1.56 ,https://www.aliexpress.com/item/32810872544.html,,
-M3x20 2x,LIYA,50pcs M3x20mm,1, $2.760 , $2.76 ,https://www.aliexpress.com/item/32810872544.html,,
-M3x8 8x,LIYA,50pcs M3x8mm,1, $1.730 , $1.73 ,https://www.aliexpress.com/item/32810872544.html,,
-M3x8 Countersunk 8x,ZONST,50pcs M3x8mm Countersunk,1, $1.810 , $1.81 ,https://www.aliexpress.com/item/1005002333132596.html,,
-M3x12 12x,LIYA,50pcs M3x12mm,1, $2.060 , $2.06 ,https://www.aliexpress.com/item/32810872544.html,,
-M3x10 5x,LIYA,50pcs M3x10mm,1, $1.940 , $1.94 ,https://www.aliexpress.com/item/32810872544.html,,
-ESP32-S3,EXPRESSIF,ESP32-S3-WROOM-1U-N16R2,1, $5.660 , $5.66 ,https://lcsc.com/product-detail/WiFi-Modules_ESPRESSIF-ESP32-S3-WROOM-1U-N16R8_C3013946.html,,
-LDO,Advanced Monolithic Systems,AMS1117-3.3,5, $0.170 , $0.85 ,https://lcsc.com/product-detail/Voltage-Regulators-Linear-Low-Drop-Out-LDO-Regulators_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.html,,
-CAN transceiver,NXP,"TJA1051T,118",1, $0.960 , $0.96 ,https://lcsc.com/product-detail/CAN-Transceivers_NXP-TJA1051T-118_C18387.html,,
-I/O expander,HGSEMI,PCF8574T/TR,1, $0.790 , $0.79 ,https://lcsc.com/product-detail/I-O-Expanders_HGSEMI-PCF8574T-TR_C2987288.html,,
-4 pin connector,JST,B4B-PH-K-S(LF)(SN),10, $0.041 , $0.41 ,https://lcsc.com/product-detail/Wire-To-Board-Connector_JST-B4B-PH-K-S-LF-SN_C131334.html,,
-6 pin connector,JST,B6B-PH-K-S(LF)(SN),10, $0.067 , $0.67 ,https://lcsc.com/product-detail/Wire-To-Board-Connector_JST-B6B-PH-K-S-LF-SN_C131342.html,,
-9 pin connector,JST,B9B-PH-K-S(LF)(SN),5, $0.051 , $0.26 ,https://lcsc.com/product-detail/Wire-To-Board-Connector_JST-B9B-PH-K-S-LF-SN_C157968.html,,
-4 pin connector housing,JST,PHR-4,50, $0.016 , $0.79 ,https://lcsc.com/product-detail/Housings-Wire-To-Board-Wire-To-Wire_JST-PHR-4_C111514.html,,
-6 pin connector housing,JST,PHR-6,20, $0.020 , $0.40 ,https://lcsc.com/product-detail/Housings-Wire-To-Board-Wire-To-Wire_JST-PHR-6_C157952.html,,
-9 pin connector housing,JST,PHR-9,20, $0.036 , $0.72 ,https://lcsc.com/product-detail/Housings-Wire-To-Board-Wire-To-Wire_JST-PHR-9_C157949.html,,
-Connector contact,JST,SPH-002T-P0.5S,100, $0.008 , $0.80 ,https://lcsc.com/product-detail/Housing-Contact_JST-SPH-002T-P0-5S_C111515.html,,
-USB-B port,TE Connectivity,292304-1,1, $0.470 , $0.47 ,https://lcsc.com/product-detail/USB-Connectors_TE-Connectivity-292304-1_C86462.html,,
-100uF capacitors,Rubycon,35ZLH100MEFC6.3X11,10, $0.059 , $0.59 ,https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_Rubycon-35ZLH100MEFC6-3X11_C109392.html,,
-100nF capacitors,Samsung Electro-Mechanics,CL31B104KBCNNNC,20, $0.137 , $2.74 ,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.html,,
-10kOhm resistors,YAGEO,RC1206FR-0710KL,100, $0.004 , $0.37 ,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC1206FR-0710KL_C132649.html,,
-RJ45 port - existing,Phoenix Contact,1337243,2, - , - ,https://www.phoenixcontact.com/en-pc/products/rj45-pcb-connectors-cuc-sp-j1st-a-r4lt-thr-led-1337243,,
-WAGO terminals - existing,WAGO,2601-3105,2, - , - ,https://www.wago.com/de/leiterplattenanschluss/leiterplattenklemme/p/2601-3105,,
-Slide switch - existing,XKB Connection,SS13E05L2,1, - , - ,https://lcsc.com/product-detail/Slide-Switches_XKB-Connection-SS13E05L2_C2884809.html,,
-Control PCB,JLCPCB,,1, $1.720 , $1.72 ,,,
-Side PCB,JLCPCB,,1, $3.440 , $3.44 ,,,
-Center PCB,JLCPCB,,1, $3.440 , $3.44 ,,,
-Cover,JLCPCB,,1, $23.790 , $23.79 ,,,
-JLCPCB shipping and taxes,,,1, $20.600 , $20.60 ,,,
-LCSC shipping,,,1, $9.210 , $9.21 ,,,
-Total,,,,, $108.40 ,,,
+"Part","Manufacturer","Product","Quantity","Price each","Total Price","Link"
+"Inserts","YMAX","Brass Threaded Insert Nut Kit","1"," $1.460 "," $1.46 ","https://www.aliexpress.com/item/1005006472962973.html"
+"Display","EstarDyn","12864-06D","1"," $6.250 "," $6.25 ","https://www.aliexpress.com/item/1005006160620381.html"
+"Rotary Knob","Sweideer","LA-155C","1"," $2.630 "," $2.63 ","https://www.aliexpress.com/item/1005007495183351.html"
+"Switches","-","10 Pieces Keyboard Replacement Parts","1"," $1.590 "," $1.59 ","https://www.aliexpress.com/item/1005004341695529.html"
+"Keycaps","-","B0KA 20PCs PBT Blank","1"," $4.470 "," $4.47 ","https://www.aliexpress.com/item/1005004525231272.html"
+"M2x5 12x","SCREWHOME","50pcs M2x5mm ULTRATHIN","1"," $1.460 "," $1.46 ","https://www.aliexpress.com/item/1005005070119421.html"
+"M2x10 4x","LIYA","50pcs M2x10mm","1"," $1.560 "," $1.56 ","https://www.aliexpress.com/item/32810872544.html"
+"M3x20 2x","LIYA","50pcs M3x20mm","1"," $2.760 "," $2.76 ","https://www.aliexpress.com/item/32810872544.html"
+"M3x8 8x","LIYA","50pcs M3x8mm","1"," $1.730 "," $1.73 ","https://www.aliexpress.com/item/32810872544.html"
+"M3x8 Countersunk 8x","ZONST","50pcs M3x8mm Countersunk","1"," $1.810 "," $1.81 ","https://www.aliexpress.com/item/1005002333132596.html"
+"M3x12 12x","LIYA","50pcs M3x12mm","1"," $2.060 "," $2.06 ","https://www.aliexpress.com/item/32810872544.html"
+"M3x10 5x","LIYA","50pcs M3x10mm","1"," $1.940 "," $1.94 ","https://www.aliexpress.com/item/32810872544.html"
+"ESP32-S3","EXPRESSIF","ESP32-S3-WROOM-1U-N16R2","1"," $5.660 "," $5.66 ","https://lcsc.com/product-detail/WiFi-Modules_ESPRESSIF-ESP32-S3-WROOM-1U-N16R8_C3013946.html"
+"LDO","Advanced Monolithic Systems","AMS1117-3.3","5"," $0.170 "," $0.85 ","https://lcsc.com/product-detail/Voltage-Regulators-Linear-Low-Drop-Out-LDO-Regulators_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.html"
+"CAN transceiver","NXP","TJA1051T,118","1"," $0.960 "," $0.96 ","https://lcsc.com/product-detail/CAN-Transceivers_NXP-TJA1051T-118_C18387.html"
+"I/O expander","HGSEMI","PCF8574T/TR","1"," $0.790 "," $0.79 ","https://lcsc.com/product-detail/I-O-Expanders_HGSEMI-PCF8574T-TR_C2987288.html"
+"4 pin connector","JST","B4B-PH-K-S(LF)(SN)","10"," $0.041 "," $0.41 ","https://lcsc.com/product-detail/Wire-To-Board-Connector_JST-B4B-PH-K-S-LF-SN_C131334.html"
+"6 pin connector","JST","B6B-PH-K-S(LF)(SN)","10"," $0.067 "," $0.67 ","https://lcsc.com/product-detail/Wire-To-Board-Connector_JST-B6B-PH-K-S-LF-SN_C131342.html"
+"9 pin connector","JST","B9B-PH-K-S(LF)(SN)","5"," $0.051 "," $0.26 ","https://lcsc.com/product-detail/Wire-To-Board-Connector_JST-B9B-PH-K-S-LF-SN_C157968.html"
+"4 pin connector housing","JST","PHR-4","50"," $0.016 "," $0.79 ","https://lcsc.com/product-detail/Housings-Wire-To-Board-Wire-To-Wire_JST-PHR-4_C111514.html"
+"6 pin connector housing","JST","PHR-6","20"," $0.020 "," $0.40 ","https://lcsc.com/product-detail/Housings-Wire-To-Board-Wire-To-Wire_JST-PHR-6_C157952.html"
+"9 pin connector housing","JST","PHR-9","20"," $0.036 "," $0.72 ","https://lcsc.com/product-detail/Housings-Wire-To-Board-Wire-To-Wire_JST-PHR-9_C157949.html"
+"Connector contact","JST","SPH-002T-P0.5S","100"," $0.008 "," $0.80 ","https://lcsc.com/product-detail/Housing-Contact_JST-SPH-002T-P0-5S_C111515.html"
+"USB-B port","TE Connectivity","292304-1","1"," $0.470 "," $0.47 ","https://lcsc.com/product-detail/USB-Connectors_TE-Connectivity-292304-1_C86462.html"
+"100uF capacitors","Rubycon","35ZLH100MEFC6.3X11","10"," $0.059 "," $0.59 ","https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_Rubycon-35ZLH100MEFC6-3X11_C109392.html"
+"100nF capacitors","Samsung Electro-Mechanics","CL31B104KBCNNNC","20"," $0.137 "," $2.74 ","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.html"
+"10kOhm resistors","YAGEO","RC1206FR-0710KL","100"," $0.004 "," $0.37 ","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC1206FR-0710KL_C132649.html"
+"Sliding potentiometers","ALPSALPINE","RS6011YA600M","2"," $1.451 "," $2.90 ","https://lcsc.com/product-detail/Potentiometers-Variable-Resistors_ALPSALPINE-RS6011YA600M_C470623.html"
+"RGB LEDs","XINGLIGHT","XL-5050RGBC-WS2812B","20"," $0.049 "," $0.98 ","https://lcsc.com/product-detail/RGB-LEDs-Built-in-IC_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html"
+"RJ45 port - existing","Phoenix Contact","1337243","2"," - "," - ","https://www.phoenixcontact.com/en-pc/products/rj45-pcb-connectors-cuc-sp-j1st-a-r4lt-thr-led-1337243"
+"WAGO terminals - existing","WAGO","2601-3105","2"," - "," - ","https://www.wago.com/de/leiterplattenanschluss/leiterplattenklemme/p/2601-3105"
+"Slide switch - existing","XKB Connection","SS13E05L2","1"," - "," - ","https://lcsc.com/product-detail/Slide-Switches_XKB-Connection-SS13E05L2_C2884809.html"
+"Control PCB","JLCPCB","5x FR4 PCB","1"," $1.720 "," $1.72 ",""
+"Side PCB","JLCPCB","5x FR4 PCB","1"," $3.440 "," $3.44 ",""
+"Center PCB","JLCPCB","5x FR4 PCB","1"," $3.440 "," $3.44 ",""
+"Center cover","JLCPCB","5x Aluminum PCB","1"," $3.390 "," $3.39 ",""
+"Cover","JLCPCB","5x Aluminum PCB","1"," $3.390 "," $3.39 ",""
+"JLCPCB shipping and taxes","","","1"," $11.020 "," $11.02 ",""
+"LCSC shipping","","","1"," $9.420 "," $9.42 ",""
+"Total","","","",""," $85.90 ",""

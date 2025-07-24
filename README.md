@@ -1,6 +1,6 @@
 # *doppeltraktion*
 
-Doppeltraktion (German for double heading — that's when two locomotives pull together on a train) is the world's simplest model railway throttle. It has ≈6x fewer buttons and switches than market competitors, such as the Uhlenbrock Intellibox II... It connects to your model railroad using LCC or to your computer via USB to control software such as RocRail or JMRI*¹ and can control two locomotives simultaneously. <br>
+Doppeltraktion (German for double heading — that's when two locomotives pull together on a train) is the world's most intuitive model railway throttle. It has ≈6x fewer buttons and switches than market competitors, such as the Uhlenbrock Intellibox II. It connects to your model railroad using LCC or to your computer via USB to control software such as RocRail or JMRI*¹ and can control two locomotives simultaneously. <br>
 <sub>*¹ not yet implemented</sub>
 
 ![Rendered model](./assets/readme/throttle_render.png)
@@ -16,6 +16,38 @@ LCC is a relatively new standard by the NMRA to control devices using a CAN bus.
 ### Motivation
 
 I've been building on my model railway from an early age. As time progressed, the electronics and operations became so complicated that nobody else could really control it. That's why I always wanted to build a physical throttle that's not dependent on external computers or phones. Everything should be ready to use when you turn on the power. Of course, there are alternatives from big manufacturers, such as the mentioned Intellibox or the ESU ECoS, but these devices are very expensive (500€+) and aren't compatible with my DIY DCCEX base station.
+
+### Design
+
+It might seem a bit unusual to have five PCBs for this relatively small project, but to keep PCB costs low (by being under 100x100mm), I decided to split the covers (aluminum PCBs) and those boards where the switches, LEDs, and potentiometers mount. The PCBs on the side are identical. Everything is connected to a custom, small control board, which houses the ESP32 as well as all the CAN circuitry (for LCC).
+![control PCB](./assets/readme/control_pcb_dual.png)
+By also splitting the base into two parts, everything should fit on the 180x180mm build plate of the A1 mini.
+
+The plates (that‘s where the switches mount mechanically) use a sandwich design (top plate - bottom plate - PCB) to avoid having to use supports and ensure dimensional accuracy for mounting the switches.
+
+I couldn’t find a good CAD model or accurate dimensions for the 16mm selector knob, so there’s a hole in the cover and the plates beneath it. The cutout size should be correct. I just need to verify the depth and maybe adjust the top side plate once the switch arrives.
+
+#### Designed Parts
+
+| Name                                                  | Image                                                                                                                                     | File                                                  | Quantity  |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|-----------|
+| Top center plate                                      | <img alt="top center plate" src="./assets/readme/top_center_plate.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >         | [STL](./production/3d/top_center_plate.stl)           | 1         |
+| Bottom center plate                                   | <img alt="bottom center plate" src="./assets/readme/bottom_center_plate.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >   | [STL](./production/3d/bottom_center_plate.stl)        | 1         |
+| Top side plate                                        | <img alt="top side plate" src="./assets/readme/top_side_plate.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >             | [STL](./production/3d/top_side_plate.stl)             | 2         |
+| Bottom side plate                                     | <img alt="bottom side plate" src="./assets/readme/bottom_side_plate.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >       | [STL](./production/3d/bottom_side_plate.stl)          | 2         |
+| Top left base                                         | <img alt="top left base" src="./assets/readme/top_base_left.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >               | [STL](./production/3d/top_base_left.stl.stl)          | 1         |
+| Top right base                                        | <img alt="bottom left base" src="./assets/readme/top_base_left.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >            | [STL](./production/3d/top_base_right.stl)             | 1         |
+| Bottom left base                                      | <img alt="bottom left base" src="./assets/readme/bottom_base_left.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >         | [STL](./production/3d/bottom_base_left.stl.stl)       | 1         |
+| Bottom right base                                     | <img alt="bottom right base" src="./assets/readme/top_base_right.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >          | [STL](./production/3d/bottom_base_right.stl)          | 1         |
+| Bottom cover                                          | <img alt="bottom left cover" src="./assets/readme/bottom_cover.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >            | [STL](./production/3d/bottom_cover.stl)               | 2         |
+| Light guide <br> (print the last layer in white PLA)  | <img alt="bottom left base" src="./assets/readme/light_guide.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >              | [STL](./production/3d/light_guide.stl)          | 7         |
+| Knob                                                  | <img alt="bottom left base" src="./assets/readme/knob.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >                     | [STL](./production/3d/knob.stl)                    | 1         |
+| Mounting PCB side                                     | <img alt="bottom left base" src="./assets/readme/mounting_pcb_side.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >        | [Gerber](./production/pcbs/side.zip)                  | 2         |
+| Mounting PCB center                                   | <img alt="bottom left base" src="./assets/readme/mounting_pcb_center.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >      | [Gerber](./production/pcbs/center.zip)                | 1         |
+| Control PCB                                           | <img alt="bottom left base" src="./assets/readme/control_pcb.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >              | [Gerber](./production/pcbs/control.zip)               | 1         |
+| Center cover                                          | <img alt="bottom left base" src="./assets/readme/cover_center.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >             | [Gerber](./production/pcbs/cover_center.zip)          | 1         |
+| Side cover                                            | <img alt="bottom left base" src="./assets/readme/cover_side.png" style="width: 50px; aspect-ratio: 1; object-fit: cover;" >               | [Gerber](./production/pcbs/cover_side.zip)            | 2         |
+
 
 ### Assembly
 
@@ -33,9 +65,9 @@ I've been building on my model railway from an early age. As time progressed, th
 
 ### BOM
 
-|Part                     |Manufacturer               |Product                             |Quantity|Price each|Total Price|Link                                                                                                                                    |
-|-------------------------|---------------------------|------------------------------------|--------|----------|-----------|----------------------------------------------------------------------------------------------------------------------------------------|
-|Inserts                  |YMAX                       |Brass Threaded Insert Nut Kit       |1       | $1.460   | $1.46     |[Link](https://www.aliexpress.com/item/1005006472962973.html)                                                                                   |
+|Part                     |Manufacturer               |Product                             |Quantity|Price each|Total Price|Link                                                                                                                                            |
+|-------------------------|---------------------------|------------------------------------|--------|----------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------|
+|Inserts                  |YMAX                       |Brass Threaded Insert Nut Kit       |1       | $1.460   | $1.46     | [Link](https://www.aliexpress.com/item/1005006472962973.html)                                                                                  |
 |Display                  |EstarDyn                   |12864-06D                           |1       | $6.250   | $6.25     |[Link](https://www.aliexpress.com/item/1005006160620381.html)                                                                                   |
 |Rotary Knob              |Sweideer                   |LA-155C                             |1       | $2.630   | $2.63     |[Link](https://www.aliexpress.com/item/1005007495183351.html)                                                                                   |
 |Switches                 |-                          |10 Pieces Keyboard Replacement Parts|1       | $1.590   | $1.59     |[Link](https://www.aliexpress.com/item/1005004341695529.html)                                                                                   |
@@ -62,13 +94,19 @@ I've been building on my model railway from an early age. As time progressed, th
 |100uF capacitors         |Rubycon                    |35ZLH100MEFC6.3X11                  |10      | $0.059   | $0.59     |[Link](https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_Rubycon-35ZLH100MEFC6-3X11_C109392.html)                         |
 |100nF capacitors         |Samsung Electro-Mechanics  |CL31B104KBCNNNC                     |20      | $0.137   | $2.74     |[Link](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.html)        |
 |10kOhm resistors         |YAGEO                      |RC1206FR-0710KL                     |100     | $0.004   | $0.37     |[Link](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC1206FR-0710KL_C132649.html)                                          |
+|Sliding potentiometers   |ALPSALPINE                 |RS6011YA600M                        |2       | $1.451   | $2.90     |[Link](https://lcsc.com/product-detail/Potentiometers-Variable-Resistors_ALPSALPINE-RS6011YA600M_C470623.html)                                  |
+|RGB LEDs                 |XINGLIGHT                  |XL-5050RGBC-WS2812B                 |20      | $0.049   | $0.98     |[Link](https://lcsc.com/product-detail/RGB-LEDs-Built-in-IC_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html)                                        |
 |RJ45 port - existing     |Phoenix Contact            |1337243                             |2       | -        | -         |[Link](https://www.phoenixcontact.com/en-pc/products/rj45-pcb-connectors-cuc-sp-j1st-a-r4lt-thr-led-1337243)                                    |
 |WAGO terminals - existing|WAGO                       |2601-3105                           |2       | -        | -         |[Link](https://www.wago.com/de/leiterplattenanschluss/leiterplattenklemme/p/2601-3105)                                                          |
 |Slide switch - existing  |XKB Connection             |SS13E05L2                           |1       | -        | -         |[Link](https://lcsc.com/product-detail/Slide-Switches_XKB-Connection-SS13E05L2_C2884809.html)                                                   |
-|Control PCB              |JLCPCB                     |                                    |1       | $1.720   | $1.72     |                                                                                                                                                |
-|Side PCB                 |JLCPCB                     |                                    |1       | $3.440   | $3.44     |                                                                                                                                                |
-|Center PCB               |JLCPCB                     |                                    |1       | $3.440   | $3.44     |                                                                                                                                                |
-|Cover                    |JLCPCB                     |                                    |1       | $23.790  | $23.79    |                                                                                                                                                |
-|JLCPCB shipping and taxes|                           |                                    |1       | $20.600  | $20.60    |                                                                                                                                                |
-|LCSC shipping            |                           |                                    |1       | $9.210   | $9.21     |                                                                                                                                                |
-|**Total**                |                           |                                    |        |          | $108.40   |                                                                                                                                                |
+|Control PCB              |JLCPCB                     |5x FR4 PCB                          |1       | $1.720   | $1.72     |                                                                                                                                                |
+|Side PCB                 |JLCPCB                     |5x FR4 PCB                          |1       | $3.440   | $3.44     |                                                                                                                                                |
+|Center PCB               |JLCPCB                     |5x FR4 PCB                          |1       | $3.440   | $3.44     |                                                                                                                                                |
+|Center cover             |JLCPCB                     |5x Aluminum PCB                     |1       | $3.390   | $3.39     |                                                                                                                                                |
+|Cover                    |JLCPCB                     |5x Aluminum PCB                     |1       | $3.390   | $3.39     |                                                                                                                                                |
+|JLCPCB shipping and taxes|                           |                                    |1       | $11.020  | $11.02    |                                                                                                                                                |
+|LCSC shipping            |                           |                                    |1       | $9.420   | $9.42     |                                                                                                                                                |
+|**Total**                |                           |                                    |        |          | **$85.90**|                                                                                                                                                |
+
+#### Opening the CAD File
+This project was built in multiple design files, which can‘t be combined without compromising the whole model. To import the CAD model, open Fusion 360, **create a new folder** and upload the [.f3z](./hardware/cad/Throttle.f3z) file into this created folder. You can now open the `Throttle` design file.
